@@ -98,7 +98,7 @@ public class SellController {
                         }
                   }
 
-              try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/internet_prodaja", "root", "meme123meme");) {
+              try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/internet_prodaja", "root", "*****");) {
                     PreparedStatement st = conn.prepareStatement("delete from prodaja where salesId=?");
                     st.setString(1, modId);
                    st.execute();

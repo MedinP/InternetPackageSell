@@ -1,0 +1,78 @@
+
+.root{
+    -fx-border-color: white;
+}
+
+#ap1{
+    -fx-border-color: white;
+}
+
+ .label {
+          -fx-text-fill: #ffffff;
+}
+
+#hbTit .label{
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+}
+
+.choice-box .menu-item > .label {
+    -fx-text-fill: #da88f3;
+}
+
+.choice-box .context-menu {
+    -fx-background-color: white;
+}
+
+.button {
+    -fx-background-color: #da88f3;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+.button:focused {
+    -fx-background-color: #ffffff;
+}
+
+#lbl7{
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+
+
+
+.list-view {
+    -fx-background-color: transparent;
+    -fx-background-radius: 20;
+    -fx-border-width: 10px;
+    -fx-background-insets: 10;
+}
+
+.list-cell{
+    -fx-background-color: transparent;
+    -fx-background-insets: 10 ;
+    -fx-border-width: 10px;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+.list-cell:selected{
+    -fx-text-fill: #da88f3;
+}
+
+#tfAdress{
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+#tfFnameLname{
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+#date{
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-background-color: #da88f3;
+}

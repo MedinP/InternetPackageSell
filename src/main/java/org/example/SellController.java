@@ -41,7 +41,7 @@ public class SellController {
            private ObservableList<SellModel> show() throws ClassNotFoundException {
               Class.forName("com.mysql.cj.jdbc.Driver");
              ObservableList<SellModel> sellList1 = FXCollections.observableArrayList();
-             try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/internet_prodaja", "root", "meme123meme");) {
+             try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/internet_prodaja", "root", "******");) {
                     Statement st = conn.createStatement();
                     st.executeQuery("select * from prodaja");
                    ResultSet rs = st.getResultSet();

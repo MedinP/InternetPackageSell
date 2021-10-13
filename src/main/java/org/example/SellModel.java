@@ -107,7 +107,7 @@ public class SellModel {
 
         if (isValid()) {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            try( Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/internet_prodaja","root","meme123meme");) {
+            try( Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/internet_prodaja","root","*****");) {
                 PreparedStatement st = conn.prepareStatement("insert into prodaja (salesId,FnameLname,adress,contract,speed,bandwith,date) values (?,?,?,?,?,?,?)");
                 st.setString(1, Integer.toString(salesId.get()));
                 st.setString(2, FnameLname.get());
